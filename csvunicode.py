@@ -1,3 +1,10 @@
+"""
+The default Python 2.x implementation of csv does not support unicode. Lame!
+
+This code comes from the bottom of this document:
+https://docs.python.org/2/library/csv.html
+"""
+
 import csv, codecs, cStringIO
 
 # this is so the CSV that is read can have unicode chars. what a pain!
